@@ -1,0 +1,19 @@
+{
+    "random_state": 77,
+    "batch_size": 3,
+    "log_path": "cmaes/log",
+    "bounds": {
+        "q_harvard": [
+            60,
+            600
+        ],
+        "q_xingda": [
+            500,
+            5000
+        ],
+        "temp": [
+            30,
+            60
+        ]
+    }
+}
