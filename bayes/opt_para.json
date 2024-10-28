@@ -1,0 +1,23 @@
+{
+    "random_state": 77,
+    "init_gp_model_path": "bayes/model_tr_md4_nl25.pkl",
+    "utility": {
+        "kind": "ucb",
+        "kappa": 5.0,
+        "xi": 0.0
+    },
+    "bounds": {
+        "q_harvard": [
+            60,
+            600
+        ],
+        "q_xingda": [
+            500,
+            5000
+        ],
+        "temp": [
+            30,
+            60
+        ]
+    }
+}
